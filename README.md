@@ -7,3 +7,6 @@
 
 ## Dataset
 - EUMETSAT Eumetview
+
+## Feature Engineering
+- Use Solar Variables for the longitude and latitude chosen.
