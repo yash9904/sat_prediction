@@ -1,0 +1,8 @@
+torch<version>
+numpy<version>
+opencv-python<version>
+transformers<version>
+matplotlib<version>
+pandas<version>
+Omegaconf<version>
+hydra<version>
