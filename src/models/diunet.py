@@ -170,3 +170,7 @@ if __name__ == "__main__":
     test_input = torch.randn(12, 48, 128, 128).to(device)
     res = model(test_input)
     print(res.shape)
+    print(
+        "Total Parameters:",
+        sum(p.numel() for p in model.parameters() if p.requires_grad),
+    )
